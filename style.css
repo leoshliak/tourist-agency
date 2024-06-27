@@ -106,7 +106,7 @@ body.lock {
 }
 
 .hero {
-    background: url('imgs/Default_reduce_amount_of_clouds_0.jpg') no-repeat center center/cover;
+   /* background: url('imgs/Default_reduce_amount_of_clouds_0.jpg') no-repeat center center/cover; */
     color: #fff;
     text-align: center;
     height: 110vh;

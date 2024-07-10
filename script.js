@@ -6,6 +6,13 @@ const nav = document.querySelector('.nav');
 const navLinks = document.querySelectorAll('.nav-link')
 const tesContainer = document.querySelector('.testimonials-container');
 
+const preloader = document.querySelector('[data-preload]');
+
+window.addEventListener('load', function(){
+  preloader.classList.add('loaded');
+  document.body.classList.add('loaded');
+});
+
 window.addEventListener('click', (e) => {
     if (e.target.classList.contains('t-link')) {
         if (e.target.classList.contains('active')) return;
